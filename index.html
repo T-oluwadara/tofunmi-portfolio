@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POrtfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Titillium+Web:wght@200;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="bg-gray-900">
+    <nav class=" w-full mx-auto px-5 py-2 md:px-14 !bg-gray-900">
+        <div class="flex items-center justify-between">
+            <div>
+                <h2 class="text-3xl text-lightGreen font-eduSa">Victoria...</h2>
+            </div>
+
+            <div
+                class="hidden md:flex space-x-3 md:space-x-6 items-center cursor-pointer text-darkGrayishBlue font-titilum">
+                <a href="#about-me" class="hover:text-lightGreen"><strong
+                        class="text-lightGreen mr-2 font-titilum">01.</strong>
+                    About</a>
+                <a href="#work" class="hover:text-lightGreen"><strong
+                        class="text-lightGreen mr-2 font-titilum">02.</strong>Work</a>
+                <a href="#contact" class="hover:text-lightGreen"><strong
+                        class="text-lightGreen mr-2 font-titilum">03.</strong>Contact
+                </a>
+                <a href=""
+                    class="border-2 px-6 py-3 border-lightGreen text-lightGreen hover:border-white hover:bg-white">Resume</a>
+            </div>
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white
+                sm:auto sm:self-center left-6 right-6  drop-shadow-md">
+                <a href="#about-me" class="hover:text-lightGreen"><strong
+                        class="text-lightGreen md:mr-2 block text-center ">01.</strong>
+                    About</a>
+                <a href="#work" class="hover:text-lightGreen"><strong
+                        class="text-lightGreen md:mr-2 block text-center">02.</strong>Work</a>
+                <a href="#contact" class="hover:text-lightGreen"><strong
+                        class="text-lightGreen md:mr-2 block text-center">03.</strong>Contact
+                </a>
+                <a href="" class="border-2 px-6 py-3 border-lightGreen text-lightGreen">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="px-8 md:pl-36 md:pr-20 pt-56 pb-40">
+            <p class="font-titilum text-white hover:text-lightGreen text-xl">Hi, my name is</p>
+            <h2 class="text-4xl md:text-6xl text-lightGreen pt-5 font-bold" id="about">
+                Oluwadara Victoria.
+            </h2>
+            <h2 class="text-4xl md:text-6xl text-darkGrayishBlue pt-5 font-bold">
+                I Build Things For The Web.
+            </h2>
+            <p class="mt-10 text-darkGrayishBlue max-w-md">
+                I am a passionate freelancer bringing you programming and design from the <strong
+                    class="text-lightGreen"> future .</strong> I
+                am
+                experienced in developing web and desktop applications including full front end design. This includes
+                brand identity, graphics and illustrations.
+            </p>
+        </div>
+    </section>
+
+    <section id="about-me" class="reveal">
+        <div class="px-8 pt-40 md:pl-36 md:pr-20 pb-16">
+            <h3 class="text-white text-3xl"><strong class="text-lightGreen mr-2">01.</strong> About me <div
+                    class="line hidden md:inline"></div>
+            </h3>
+            <p class="mt-10 text-darkGrayishBlue max-w-lg">
+                Hello! My name is <strong class="text-lightGreen"> Victoria</strong> and I enjoy creating things that
+                live on the internet. My interest in web
+                development started back in April when I decided to try editing. I have learnt a lot since then and I'm
+                still open to learning more.
+            </p>
+
+            <p class="mt-10 text-darkGrayishBlue max-w-lg">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas quo illum fugit voluptatum
+                tenetur deleniti reprehenderit tempora placeat minus est nobis, architecto obcaecati quam labore
+                molestiae nemo rem pariatur?
+            </p>
+
+            <p class="mt-10 text-darkGrayishBlue max-w-lg">Here are a few of the technologies I've been working with ;
+            </p>
+            <ul class="text-none text-darkGrayishBlue mt-7">
+                <li class="pt-3"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 inline animate__animated animate__shakeX animate__slow animate__repeat-2"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg> HTML</li>
+                <li class="pt-3"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 inline animate__animated animate__shakeX animate__slow animate__repeat-2"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>CSS</li>
+                <li class="pt-3"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 inline animate__animated animate__shakeX animate__slow animate__repeat-2"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>Javascript</li>
+                <li class="pt-3"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 inline animate__animated animate__shakeX animate__slow animate__repeat-2"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>Tailwindcss</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work" class="reveal">
+        <div class="px-8 pt-40 md:pl-36 md:pr-20 pb-16">
+            <h3 class="text-white text-3xl"><strong class="text-lightGreen mr-2">02.</strong> Some Things I've Built
+                <div class="line hidden md:inline"></div>
+            </h3>
+
+            <div class="flex flex-col md:flex-row md:space-between mt-20 space-y-6 md:space-y-0 right_fade">
+                <div class="flex flex-col md:w-1/2 text-left md:pr-20">
+                    <p class="md:mt-10 text-lightGreen">Practice Project</p>
+                    <h3 class="text-white text-2xl mt-8">Easybank Landing Page
+                    </h3>
+                    <p class="text-darkGrayishBlue max-w-md pt-12">A simple landing page of a bank website made with
+                        tailwindcss,
+                        javascript and <strong class="text-lightGreen">Love.</strong></p>
+                </div>
+
+                <div class="md:w-1/2 bg-gray-900">
+                    <a href="https://magical-horse-01fb65.netlify.app/">
+                        <img src="images/easybank.png" alt="" class="opacity-40 hover:opacity-100">
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col-reverse md:flex-row md:space-between mt-20 space-y-6 md:space-y-0  md:pt-20 left_fade">
+                <div class="md:w-1/2 bg-gray-900">
+                    <a href="https://funny-biscochitos-172a08.netlify.app/">
+                        <img src="images/sunnyside.png" alt="" class="opacity-40 hover:opacity-100">
+                    </a>
+                </div>
+                <div class="flex flex-col md:w-1/2 md:pl-20">
+                    <p class="mt-10 text-lightGreen">Practice Project</p>
+                    <h3 class="text-white text-2xl mt-8">Sunnyside Landing Page
+                    </h3>
+                    <p class="text-darkGrayishBlue max-w-md pt-12 mb-5">A simple landing page for a creative agency that
+                        specializes in helping brands grow fast website. It was made with
+                        tailwindcss, javascript, typescript.js.
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:space-between mt-20  space-y-6 md:space-y-0 md:pt-20 right_fade">
+                <div class="flex flex-col md:w-1/2 text-left md:pr-20">
+                    <p class="mt-10 text-lightGreen">Practice Project</p>
+                    <h3 class="text-white text-2xl mt-8">Manage Landing Page
+                    </h3>
+                    <p class="text-darkGrayishBlue max-w-md pt-12">A simple landing page of a software brand website
+                        made with
+                        tailwindcss,
+                        javascript and <strong class="text-lightGreen">Love.</strong></p>
+                </div>
+
+                <div class="md:w-1/2 bg-gray-900">
+                    <a href="https://lighthearted-flan-8bb22e.netlify.app/">
+                        <img src="images/manage.png" alt="" class="opacity-40 hover:opacity-100">
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col-reverse md:flex-row md:space-between mt-20 space-y-6 md:space-y-0 md:pt-20 left_fade">
+                <div class="md:w-1/2 bg-gray-900">
+                    <a href="https://earnest-sopapillas-ca7a79.netlify.app/">
+                        <img src="images/clipboard.png" alt="" class="opacity-40 hover:opacity-100">
+                    </a>
+                </div>
+                <div class="flex flex-col md:w-1/2 md:pl-16">
+                    <p class="mt-10 text-lightGreen">Practice Project</p>
+                    <h3 class="text-white text-2xl mt-8">Clipboard Landing Page
+                    </h3>
+                    <p class="text-darkGrayishBlue max-w-md pt-12 mb-5">A simple landing page for a clipboard company
+                        that
+                        makes tracking and organizing your clipboard easy. It was made with
+                        tailwindcss.
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="px-8 pt-40 md:pl-36 md:pr-20 pb-16 reveal" id="contact">
+        <h3 class="text-white text-3xl pb-10 md:pb-28"><strong class="text-lightGreen mr-2">03.</strong> Contact Me <div
+                class="line hidden md:inline"></div>
+        </h3>
+        <div class="flex flex-col md:flex-row space-y-12 md:space-x-4 md:space-y-0">
+            <div class="flex flex-col md:w-1/2 md:pt-16">
+
+                <h2 class="text-4xl mt-8 font-bold text-darkGrayishBlue text-left">
+                    Got A Problem To Solve?
+                </h2>
+                <p class="mt-5 text-darkGrayishBlue">
+                    Get your space suit ready and tell me your ideas to develop your dream website.
+                </p>
+
+                <a class="text-white leading-relaxed max-w-prose mt-14 hover:text-lightGreen cursor-pointer inline-block"
+                    href="mailto:ajimotioluwadara@gmail.com" title="Hit me up">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 inline mr-1 mb-1" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z">
+                        </path>
+                    </svg>
+                    ajimotioluwadara@gmail.com</a>
+                <div class="flex flex-row space-x-6 pt-6 ">
+                    <a href="https://github.com/T-oluwadara" class=" "><img src="images/icons/GitHub-Mark-64px.png"
+                            alt="" class="page-icons h-10 w-10"></a>
+                    <a href="#" class=""><img src="images/icons/icon-facebook.svg" alt=""
+                            class=" pg-icon h-10 w-10"></a>
+                    <a href="#" class=""><img src="images/icons/icon-twitter.svg" alt="" class="pg-icon h-10 w-10"></a>
+
+                </div>
+            </div>
+
+            <div class="md:w-1/2">
+                <div class="basis-full lg:self-center mt-10 lg:mt-0 lg:ml-28">
+                    <form id="contact-form">
+                        <label for="form-name" class="block mb-2 text-md text-white uppercase">Name</label>
+                        <div class="relative mt-1 mb-12">
+                            <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 opacity-60" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path
+                                        d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <input type="text" id="form-name" name="name" maxlength="40"
+                                oninput="this.setCustomValidity('')"
+                                oninvalid="this.setCustomValidity('Name is empty.')" required=""
+                                class="bg-stone-300 border-[1.5px] border-neutrals-500 rounded-md block w-full pl-10 pr-10 p-2.5 focus:ring-none focus:border-brand focus:outline-none">
+
+
+                            <div
+                                class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none invisible peer-valid:visible">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-success-cyan"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div
+                                class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none invisible peer-invalid:visible">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-alert-red"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span
+                                class="absolute text-xs text-white text-alert-red mt-[0.4rem] invisible peer-invalid:visible">Name
+                                is empty.</span>
+                        </div>
+
+                        <!-- email input -->
+                        <label for="form-email" class="block mb-2 text-md text-white uppercase">Email</label>
+                        <div class="relative mt-1 mb-12">
+                            <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 opacity-60" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z">
+                                    </path>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                </svg>
+                            </div>
+
+                            <input type="email" id="form-email" name="email" maxlength="40"
+                                oninput="this.setCustomValidity('')"
+                                oninvalid="this.setCustomValidity('Email is empty or invalid.')"
+                                onclick="document.getElementById('form-email').classList.add('peer'); document.getElementById('form-email').classList.add('invalid:border-alert-red');"
+                                pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required=""
+                                class="bg-stone-300 border-[1.5px] border-neutrals-500 rounded-md block w-full pl-10 p-2.5 focus:ring-none focus:border-brand focus:outline-none">
+                            <div
+                                class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none invisible peer-valid:visible">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-success-cyan"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div
+                                class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none invisible peer-invalid:visible">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-alert-red"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span
+                                class="absolute text-xs text-alert-red mt-[0.4rem] text-white invisible peer-invalid:visible">Email
+                                is empty or invalid.</span>
+                        </div>
+                        <label for="form-message" class="block mb-2 text-md text-white uppercase">Message</label>
+                        <div class="relative mt-1 mb-12">
+                            <textarea type="text" id="form-message" name="message" rows="4"
+                                oninput="this.setCustomValidity('')"
+                                oninvalid="this.setCustomValidity('Message is empty.')"
+                                onclick="document.getElementById('form-message').classList.add('peer'); document.getElementById('form-message').classList.add('invalid:border-alert-red');"
+                                required=""
+                                class="block p-2.5 w-full bg-stone-300 rounded-lg border border-neutrals-500 focus:ring-none focus:border-brand focus:outline-none"></textarea>
+
+
+                            <div
+                                class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none invisible peer-valid:visible">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-success-cyan"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div
+                                class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none invisible peer-invalid:visible">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-alert-red text-white"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span
+                                class="absolute text-xs text-white text-alert-red mt-[0.4rem] invisible peer-invalid:visible">Message
+                                is empty.</span>
+                        </div>
+
+                        <!-- submit button -->
+                        <button type="submit"
+                            class="px-5 py-2 shadow-2xl bg-black text-white flex items-center hover:text-lightGreen"
+                            style="background-image: url('/assets/button-dark.svg')">
+                            Hit me up <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 inline-block ml-2"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.563 3.34a1.002 1.002 0 0 0-.989-.079l-17 8a1 1 0 0 0 .026 1.821L8 15.445v6.722l5.836-4.168 4.764 2.084a1 1 0 0 0 1.399-.85l1-15a1.005 1.005 0 0 0-.436-.893zm-2.466 14.34-5.269-2.306L16 9.167l-7.649 4.25-2.932-1.283 13.471-6.34-.793 11.886z">
+                                </path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
