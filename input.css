@@ -3,83 +3,90 @@
 @tailwind utilities;
 
 .hamburger {
-    cursor: pointer;
-    width: 24px;
-    height: 24px;
-    transition: all 0.25s;
-    position: relative;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
 }
 
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 24px;
-    height: 2px;
-    background: hsla(169, 47%, 51%, 1);
-    transform: rotate(0);
-    transition: all 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: hsla(169, 47%, 51%, 1);
+  transform: rotate(0);
+  transition: all 0.5s;
 }
 
 .hamburger-middle {
-    transform: translateY(7px);
+  transform: translateY(7px);
 }
 
 .hamburger-bottom {
-    transform: translateY(14px);
+  transform: translateY(14px);
 }
 
 .open {
-    transform: rotate(90deg);
-    transform: translateY(0px);
+  transform: rotate(90deg);
+  transform: translateY(0px);
 }
 
 .open .hamburger-top {
-    transform: rotate(45deg) translateY(6px) translateX(6px);
+  transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
 .open .hamburger-middle {
-    display: none;
+  display: none;
 }
 
 .open .hamburger-bottom {
-    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
 .line {
-    width: 350px;
-    height: 25px;
-    border-bottom: 1px solid rgb(242, 237, 237);
-    position: absolute;
-    align-items: center;
-    margin-left: 10px;
+  width: 350px;
+  height: 25px;
+  border-bottom: 1px solid rgb(242, 237, 237);
+  position: absolute;
+  align-items: center;
+  margin-left: 10px;
 }
 
 #about-me svg {
-    filter: invert(62%) sepia(59%) saturate(380%) hue-rotate(119deg) brightness(93%) contrast(88%);
-    margin-right: 10px;
+  filter: invert(62%) sepia(59%) saturate(380%) hue-rotate(119deg) brightness(93%) contrast(88%);
+  margin-right: 10px;
 }
 
 .page-icons {
-    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(39deg) brightness(101%) contrast(101%);
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(39deg) brightness(101%) contrast(101%);
 }
 
 .page-icons:hover,
 .pg-icon:hover {
-    filter: invert(59%) sepia(66%) saturate(357%) hue-rotate(119deg) brightness(90%) contrast(87%);
+  filter: invert(59%) sepia(66%) saturate(357%) hue-rotate(119deg) brightness(90%) contrast(87%);
 }
 
-
 .reveal {
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 2s ease-in;
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease-in;
 }
 
 .reveal.active {
-    transform: translateY(0px);
-    opacity: 1;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.nav-items a {
+  transition: all, 0.25s, ease;
+}
+
+.nav-items a:hover {
+  transform: translateY(-4px);
 }
